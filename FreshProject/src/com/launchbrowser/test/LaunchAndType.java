@@ -23,6 +23,7 @@ public class LaunchAndType {
 	
 		driver= new ChromeDriver();
 		System.out.println("Chrome Browser Launched");
+                                 System.out.println(This is change for push and pull git validation");
 		driver.manage().window().maximize();
 		System.out.println(driver.manage().getCookies());
 		System.out.println("Cookies get");
