@@ -26,8 +26,10 @@ public class LaunchAndType {
                                  System.out.println(This is change for push and pull git validation");
 		driver.manage().window().maximize();
 		System.out.println(driver.manage().getCookies());
+                System.out.println(This is change for push and pull git validation on 28 jun 2nd day");
 		System.out.println("Cookies get");
 		//driver.manage().deleteAllCookies();
+                      System.out.println("GIT changes mae for test ");
 		//System.out.println("Cookies deleted");
 		driver.get("https://www.gmail.com");
 		driver.manage().timeouts().pageLoadTimeout(30,TimeUnit.SECONDS);
